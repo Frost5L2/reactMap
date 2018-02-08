@@ -17,7 +17,7 @@ class RenderInput extends Component {
     }
 
     render() {
-        return <input type="text"
+        return <input className="renderInput" type="text"
         onKeyPress={this.handleKeyUp}
         />;
     }

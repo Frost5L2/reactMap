@@ -12,8 +12,8 @@ class Point extends Component {
     }
     render() {
         let data = this.props.data;
-       // console.log(this);
-        return <div>id:{}{data.name}<span onClick={this.deltPoint}>X</span></div>
+        //console.log(this);
+        return <div className="wrapPoint">id:{data.idP} | {data.name}<span className="deleteBtn" onClick={this.deltPoint}> X</span></div>
     }
 }
 

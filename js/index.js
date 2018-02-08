@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import Ymap from './Ymap';
 import RenderInput from './RenderInput';
 import RenderPoints from './RenderPoints';
+import {DragDropContext} from 'react-dnd';
+import HTML5Backend from 'react-dnd-html5-backrnd';
 
 class Application extends Component {
     constructor(props) {
